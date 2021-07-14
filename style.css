@@ -1,0 +1,59 @@
+/*---------
+  fonts 
+----------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ------------
+   common style 
+   ------------- */
+   body{
+    font-family: 'Poppins', sans-serif;
+   }
+   .container{
+       background-color: #2D25A0;
+   }
+   /* ----------------------------------
+      top tournament and banner style 
+      ----------------------------------- */
+      .tournaments{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-column-gap: 40px;
+      }
+      .tournament{
+          margin-left: 150px;
+          margin-top: 80px;
+      }
+      .tournament-title h1{
+          margin-bottom: 27px;
+          color: #FFFFFF;
+          font-size: 50px;
+      }
+      .link-button{
+          display: flex;
+          
+      }
+      .link-button a{
+          text-decoration: none;
+          background-color: #E02C6D;
+          color: white;
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 0;
+      }
+      .link-button a .fa-arrow-right{
+        padding-right: 20px;
+      }
+      .top-banner img{
+        width: 556.01px;
+        height: 438px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+      .top-banner img:hover{
+          transform: scale(1.2) rotate(5deg);
+          transition: transform 2s ease-in;
+      }
+      /* -------------------------------
+           players identity section style
+       --------------------------------- */
